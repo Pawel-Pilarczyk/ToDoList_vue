@@ -1,7 +1,7 @@
 <template>
     <div class='taskAdder'>
         <input type="text" name="" id="newTaskAdder" v-model="newTaskName">
-        <button @click.prevent="addTask">Add Task</button>
+        <button @click.prevent="addTask" class="btn btn-info">Add Task</button>
     </div>
 </template>
 <script>
